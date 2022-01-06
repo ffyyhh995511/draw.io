@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-06T07:01:44.076Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.93 Safari/537.36" etag="nbVw6WbbjvP1mWEPNQSe" version="15.9.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-01-06T07:08:45.751Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.93 Safari/537.36" etag="UoQXM_KUcn0A7teRNzOV" version="15.9.4" type="github">
   <diagram id="Il6zib8G1KRrYEGMZTlJ" name="第 1 页">
     <mxGraphModel dx="1662" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
       <root>
@@ -81,38 +81,58 @@
           <mxGeometry x="1425" y="380" width="30" height="20" as="geometry" />
         </mxCell>
         <mxCell id="ri1Frq5KzClj6QZ898nN-13" value="结束" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1290" y="660" width="120" height="80" as="geometry" />
+          <mxGeometry x="1290" y="740" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="ri1Frq5KzClj6QZ898nN-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="ri1Frq5KzClj6QZ898nN-14" target="ri1Frq5KzClj6QZ898nN-13" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="ri1Frq5KzClj6QZ898nN-14" value="每条数据全字段&lt;br&gt;进行hash匹配" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1290" y="530" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="ri1Frq5KzClj6QZ898nN-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" target="ri1Frq5KzClj6QZ898nN-22" edge="1">
+        <mxCell id="1fpQUF7GKC2W4AB3YoLm-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ri1Frq5KzClj6QZ898nN-14">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1940" y="170" as="sourcePoint" />
+            <mxPoint x="1350" y="640" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ri1Frq5KzClj6QZ898nN-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="ri1Frq5KzClj6QZ898nN-22" target="ri1Frq5KzClj6QZ898nN-24" edge="1">
+        <mxCell id="ri1Frq5KzClj6QZ898nN-14" value="不同索引开启&lt;br&gt;多线程处理" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1290" y="530" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1fpQUF7GKC2W4AB3YoLm-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ri1Frq5KzClj6QZ898nN-22" target="ri1Frq5KzClj6QZ898nN-24">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ri1Frq5KzClj6QZ898nN-22" value="每行数据对字段进行排序" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1880" y="240" width="120" height="60" as="geometry" />
+          <mxGeometry x="1880" y="340" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="ri1Frq5KzClj6QZ898nN-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="ri1Frq5KzClj6QZ898nN-24" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1940" y="520" as="targetPoint" />
-          </mxGeometry>
+        <mxCell id="1fpQUF7GKC2W4AB3YoLm-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ri1Frq5KzClj6QZ898nN-24" target="ri1Frq5KzClj6QZ898nN-27">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ri1Frq5KzClj6QZ898nN-24" value="&lt;span style=&quot;color: rgb(34 , 34 , 34) ; font-family: &amp;#34;helvetica neue&amp;#34; , &amp;#34;hiragino sans gb&amp;#34; , &amp;#34;microsoft yahei&amp;#34; , , &amp;#34;arial&amp;#34; , sans-serif ; font-size: 14px ; text-align: left ; background-color: rgb(255 , 255 , 255)&quot;&gt;ASCII码从小到大排序&lt;/span&gt;" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1880" y="380" width="120" height="60" as="geometry" />
+          <mxGeometry x="1880" y="470" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1fpQUF7GKC2W4AB3YoLm-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ri1Frq5KzClj6QZ898nN-27" target="1fpQUF7GKC2W4AB3YoLm-2">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ri1Frq5KzClj6QZ898nN-27" value="对排序后的数据进行hash计算和匹配" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1880" y="520" width="120" height="60" as="geometry" />
+          <mxGeometry x="1880" y="600" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1fpQUF7GKC2W4AB3YoLm-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ri1Frq5KzClj6QZ898nN-28">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1940" y="330" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="ri1Frq5KzClj6QZ898nN-28" value="抽样数据 ，es按id进行深度分页、每页取1000条、从1000中&lt;br&gt;取模运算，拼接剩余数据" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1880" y="80" width="120" height="90" as="geometry" />
+          <mxGeometry x="1880" y="180" width="120" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="1fpQUF7GKC2W4AB3YoLm-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="1fpQUF7GKC2W4AB3YoLm-1" target="ri1Frq5KzClj6QZ898nN-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1fpQUF7GKC2W4AB3YoLm-1" value="开始" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1880" y="50" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="1fpQUF7GKC2W4AB3YoLm-2" value="结束" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1880" y="730" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="1fpQUF7GKC2W4AB3YoLm-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1fpQUF7GKC2W4AB3YoLm-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1350" y="730" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1fpQUF7GKC2W4AB3YoLm-11" value="每条数据全字段&lt;br&gt;进行hash匹配" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1290" y="640" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
