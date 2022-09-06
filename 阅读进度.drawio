@@ -1,1 +1,81 @@
-<mxfile host="app.diagrams.net" modified="2022-09-06T07:54:48.150Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" version="20.2.3" etag="-UDm0_oSQ6pJGnunLg-I" type="github"><diagram id="DpDPsfffJaDy5sHixKWM">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-09-06T09:25:05.261Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="nrfboBBDYWGgLUdpdYd9" version="20.2.3" type="github">
+  <diagram id="DpDPsfffJaDy5sHixKWM" name="第 1 页">
+    <mxGraphModel dx="1662" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Ib03LIkVqxR-ll3pm1Tq-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#FF0000;" edge="1" parent="1" source="Ib03LIkVqxR-ll3pm1Tq-1" target="Ib03LIkVqxR-ll3pm1Tq-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ib03LIkVqxR-ll3pm1Tq-1" value="开始" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="645" y="40" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ib03LIkVqxR-ll3pm1Tq-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#FF0000;" edge="1" parent="1" source="Ib03LIkVqxR-ll3pm1Tq-4" target="Ib03LIkVqxR-ll3pm1Tq-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ib03LIkVqxR-ll3pm1Tq-4" value="数据库获取&lt;br&gt;全量已读&lt;br&gt;chaper数据" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
+          <mxGeometry x="630" y="250" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ib03LIkVqxR-ll3pm1Tq-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#FF0000;" edge="1" parent="1" source="Ib03LIkVqxR-ll3pm1Tq-5" target="Ib03LIkVqxR-ll3pm1Tq-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ib03LIkVqxR-ll3pm1Tq-5" value="增量、全量&lt;br&gt;数据初始化" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
+          <mxGeometry x="630" y="140" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ib03LIkVqxR-ll3pm1Tq-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF0000;" edge="1" parent="1" source="Ib03LIkVqxR-ll3pm1Tq-6" target="Ib03LIkVqxR-ll3pm1Tq-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ib03LIkVqxR-ll3pm1Tq-6" value="统计每个用户&lt;br&gt;全部已读&lt;br&gt;&lt;font color=&quot;#ff0000&quot;&gt;数量&lt;/font&gt;到缓存" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
+          <mxGeometry x="790" y="460" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ib03LIkVqxR-ll3pm1Tq-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#FF0000;" edge="1" parent="1" source="Ib03LIkVqxR-ll3pm1Tq-7" target="Ib03LIkVqxR-ll3pm1Tq-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ib03LIkVqxR-ll3pm1Tq-7" value="按book分组" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
+          <mxGeometry x="800" y="360" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ib03LIkVqxR-ll3pm1Tq-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF0000;" edge="1" parent="1" source="Ib03LIkVqxR-ll3pm1Tq-8" target="Ib03LIkVqxR-ll3pm1Tq-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ib03LIkVqxR-ll3pm1Tq-8" value="计算每个用户的&lt;br&gt;book已读数量&lt;br&gt;和进度百分比" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
+          <mxGeometry x="960" y="360" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ib03LIkVqxR-ll3pm1Tq-9" value="保存数据库&lt;br&gt;read_progress表" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
+          <mxGeometry x="1120" y="360" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ib03LIkVqxR-ll3pm1Tq-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF0000;" edge="1" parent="1" source="Ib03LIkVqxR-ll3pm1Tq-10" target="Ib03LIkVqxR-ll3pm1Tq-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ib03LIkVqxR-ll3pm1Tq-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF0000;" edge="1" parent="1" source="Ib03LIkVqxR-ll3pm1Tq-10" target="Ib03LIkVqxR-ll3pm1Tq-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ib03LIkVqxR-ll3pm1Tq-10" value="按userId分组" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
+          <mxGeometry x="625" y="460" width="135" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ib03LIkVqxR-ll3pm1Tq-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF0000;" edge="1" parent="1" source="Ib03LIkVqxR-ll3pm1Tq-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="695" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ib03LIkVqxR-ll3pm1Tq-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontColor=#FF0000;" edge="1" parent="1" source="Ib03LIkVqxR-ll3pm1Tq-11" target="Ib03LIkVqxR-ll3pm1Tq-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ib03LIkVqxR-ll3pm1Tq-11" value="按userId分组" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
+          <mxGeometry x="630" y="360" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ib03LIkVqxR-ll3pm1Tq-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF0000;" edge="1" parent="1" source="Ib03LIkVqxR-ll3pm1Tq-12" target="Ib03LIkVqxR-ll3pm1Tq-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ib03LIkVqxR-ll3pm1Tq-12" value="统计每个用户&lt;br&gt;圣经&lt;font color=&quot;#ff3333&quot;&gt;阅读百分比&lt;/font&gt;&lt;br&gt;到缓存" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
+          <mxGeometry x="950" y="460" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ib03LIkVqxR-ll3pm1Tq-13" value="清除&lt;font color=&quot;#ff0000&quot;&gt;用户阅读&lt;br&gt;进度列表&lt;/font&gt;缓存" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
+          <mxGeometry x="1120" y="460" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ib03LIkVqxR-ll3pm1Tq-14" value="结束" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="642.5" y="570" width="100" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
