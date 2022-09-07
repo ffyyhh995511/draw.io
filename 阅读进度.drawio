@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-09-06T09:25:05.261Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="nrfboBBDYWGgLUdpdYd9" version="20.2.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-07T06:48:11.556Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="oBbks-xQ0ZBZ5nCLBmU5" version="20.2.3" type="github">
   <diagram id="DpDPsfffJaDy5sHixKWM" name="第 1 页">
-    <mxGraphModel dx="1662" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
+    <mxGraphModel dx="1662" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -13,7 +13,7 @@
         <mxCell id="Ib03LIkVqxR-ll3pm1Tq-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#FF0000;" edge="1" parent="1" source="Ib03LIkVqxR-ll3pm1Tq-4" target="Ib03LIkVqxR-ll3pm1Tq-11">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Ib03LIkVqxR-ll3pm1Tq-4" value="数据库获取&lt;br&gt;全量已读&lt;br&gt;chaper数据" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
+        <mxCell id="Ib03LIkVqxR-ll3pm1Tq-4" value="数据库获取&lt;br&gt;全量已读&lt;br&gt;chatper数据" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
           <mxGeometry x="630" y="250" width="130" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Ib03LIkVqxR-ll3pm1Tq-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#FF0000;" edge="1" parent="1" source="Ib03LIkVqxR-ll3pm1Tq-5" target="Ib03LIkVqxR-ll3pm1Tq-4">
@@ -74,6 +74,77 @@
         </mxCell>
         <mxCell id="Ib03LIkVqxR-ll3pm1Tq-14" value="结束" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="642.5" y="570" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ib03LIkVqxR-ll3pm1Tq-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.569;entryY=-0.033;entryDx=0;entryDy=0;entryPerimeter=0;fontColor=#FF3333;" edge="1" parent="1" source="Ib03LIkVqxR-ll3pm1Tq-30" target="Ib03LIkVqxR-ll3pm1Tq-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ib03LIkVqxR-ll3pm1Tq-30" value="开始" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="645" y="740" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ib03LIkVqxR-ll3pm1Tq-40" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF3333;" edge="1" parent="1" source="Ib03LIkVqxR-ll3pm1Tq-31" target="Ib03LIkVqxR-ll3pm1Tq-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ib03LIkVqxR-ll3pm1Tq-31" value="优先获取缓存&lt;br&gt;列表数据" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
+          <mxGeometry x="625" y="840" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ib03LIkVqxR-ll3pm1Tq-42" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF3333;" edge="1" parent="1" source="Ib03LIkVqxR-ll3pm1Tq-32" target="Ib03LIkVqxR-ll3pm1Tq-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ib03LIkVqxR-ll3pm1Tq-49" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF3333;" edge="1" parent="1" source="Ib03LIkVqxR-ll3pm1Tq-32" target="Ib03LIkVqxR-ll3pm1Tq-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ib03LIkVqxR-ll3pm1Tq-32" value="&lt;font color=&quot;#000000&quot;&gt;缓存存在&lt;/font&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fontColor=#FF0000;" vertex="1" parent="1">
+          <mxGeometry x="640" y="950" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="Ib03LIkVqxR-ll3pm1Tq-48" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF3333;" edge="1" parent="1" source="Ib03LIkVqxR-ll3pm1Tq-33" target="Ib03LIkVqxR-ll3pm1Tq-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ib03LIkVqxR-ll3pm1Tq-33" value="返回列表数据" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
+          <mxGeometry x="625" y="1110" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ib03LIkVqxR-ll3pm1Tq-34" value="结束" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="640" y="1220" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ib03LIkVqxR-ll3pm1Tq-43" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF3333;" edge="1" parent="1" source="Ib03LIkVqxR-ll3pm1Tq-35" target="Ib03LIkVqxR-ll3pm1Tq-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ib03LIkVqxR-ll3pm1Tq-35" value="read_progress表&lt;br&gt;获取全部userId&lt;br&gt;的book数据" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
+          <mxGeometry x="820" y="970" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ib03LIkVqxR-ll3pm1Tq-44" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF3333;" edge="1" parent="1" source="Ib03LIkVqxR-ll3pm1Tq-36" target="Ib03LIkVqxR-ll3pm1Tq-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ib03LIkVqxR-ll3pm1Tq-36" value="按book的List集合&lt;br&gt;转换map集合&lt;br&gt;book为key" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
+          <mxGeometry x="1010" y="970" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ib03LIkVqxR-ll3pm1Tq-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="1" source="Ib03LIkVqxR-ll3pm1Tq-37" target="Ib03LIkVqxR-ll3pm1Tq-33">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="790" y="1170" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1310" y="1150" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ib03LIkVqxR-ll3pm1Tq-37" value="排序和构建新旧约List集合&lt;br&gt;计算book列表、总进度百分比&lt;br&gt;&lt;font color=&quot;#ff3333&quot;&gt;总数量和List对象存入缓存&lt;br&gt;&lt;/font&gt;" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
+          <mxGeometry x="1190" y="970" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ib03LIkVqxR-ll3pm1Tq-38" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;fontColor=#000000;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="90" y="680" as="sourcePoint" />
+            <mxPoint x="1640" y="680" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ib03LIkVqxR-ll3pm1Tq-50" value="&lt;font color=&quot;#000000&quot;&gt;是&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FF3333;" vertex="1" parent="1">
+          <mxGeometry x="695" y="1060" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ib03LIkVqxR-ll3pm1Tq-51" value="&lt;font color=&quot;#000000&quot;&gt;否&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FF3333;" vertex="1" parent="1">
+          <mxGeometry x="760" y="970" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ib03LIkVqxR-ll3pm1Tq-53" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;fontColor=#000000;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="90" y="1310" as="sourcePoint" />
+            <mxPoint x="1640" y="1310" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
