@@ -1,10 +1,10 @@
-<mxfile host="app.diagrams.net" modified="2023-04-17T06:52:59.043Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="mtzk94zs6XZltl1IOoy8" version="21.0.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-17T07:01:14.065Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="7ejHBwabni5G940eJMR9" version="21.0.2" type="github">
   <diagram name="第 1 页" id="8EH3WvseS1vLsNVgpoKh">
     <mxGraphModel dx="1674" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="cipVil2R9AzAlvh0oZg6-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="cipVil2R9AzAlvh0oZg6-1">
+        <mxCell id="cipVil2R9AzAlvh0oZg6-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="cipVil2R9AzAlvh0oZg6-1" target="cipVil2R9AzAlvh0oZg6-6">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="570" y="250" as="targetPoint" />
           </mxGeometry>
@@ -12,7 +12,7 @@
         <mxCell id="cipVil2R9AzAlvh0oZg6-1" value="安卓移动端支付" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="510" y="130" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="cipVil2R9AzAlvh0oZg6-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="cipVil2R9AzAlvh0oZg6-6">
+        <mxCell id="cipVil2R9AzAlvh0oZg6-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="cipVil2R9AzAlvh0oZg6-6" target="cipVil2R9AzAlvh0oZg6-9">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="570" y="360" as="targetPoint" />
           </mxGeometry>
@@ -53,7 +53,10 @@
         </mxCell>
         <mxCell id="cipVil2R9AzAlvh0oZg6-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="cipVil2R9AzAlvh0oZg6-21">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="860" y="560" as="targetPoint" />
+            <mxPoint x="840" y="670" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="840" y="560" />
+            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="cipVil2R9AzAlvh0oZg6-21" value="是否是一次性商品" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -62,8 +65,33 @@
         <mxCell id="cipVil2R9AzAlvh0oZg6-23" value="Y" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="510" y="610" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="cipVil2R9AzAlvh0oZg6-24" value="一次性商品凭证校验" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="cipVil2R9AzAlvh0oZg6-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="cipVil2R9AzAlvh0oZg6-24" target="cipVil2R9AzAlvh0oZg6-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cipVil2R9AzAlvh0oZg6-24" value="调用一次性商品凭证&lt;br&gt;接口进行校验" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="510" y="670" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cipVil2R9AzAlvh0oZg6-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="cipVil2R9AzAlvh0oZg6-27">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="700" y="700" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cipVil2R9AzAlvh0oZg6-27" value="调用订阅商品凭证&lt;br&gt;接口进行校验" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="780" y="670" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cipVil2R9AzAlvh0oZg6-28" value="N" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="665" y="570" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cipVil2R9AzAlvh0oZg6-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="cipVil2R9AzAlvh0oZg6-29">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="700" y="920" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cipVil2R9AzAlvh0oZg6-29" value="获取移动端传的价格、支付地区等信息&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="800" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cipVil2R9AzAlvh0oZg6-33" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="920" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
