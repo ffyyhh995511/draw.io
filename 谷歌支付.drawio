@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-17T07:15:20.913Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="dCPWi_WEkMSnQiaTDg1I" version="21.0.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-17T07:16:58.277Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="VPtqbLmTCZp5jcoycfPO" version="21.0.2" type="github">
   <diagram name="第 1 页" id="8EH3WvseS1vLsNVgpoKh">
     <mxGraphModel dx="1674" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
       <root>
@@ -121,8 +121,14 @@
         <mxCell id="cipVil2R9AzAlvh0oZg6-45" value="记录已支付状态&lt;br&gt;入库verify_google表" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="620" y="1060" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="cipVil2R9AzAlvh0oZg6-49" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="cipVil2R9AzAlvh0oZg6-46" target="cipVil2R9AzAlvh0oZg6-48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="cipVil2R9AzAlvh0oZg6-46" value="关联order_no&lt;br&gt;入库iap_order表" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="620" y="1200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cipVil2R9AzAlvh0oZg6-48" value="关联order_id&lt;br&gt;入库ads_interest_member表" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="1340" width="160" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
