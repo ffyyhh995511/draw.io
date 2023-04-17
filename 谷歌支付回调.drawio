@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-17T08:41:10.169Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="p5hU66c1l53ih9UYqhVd" version="21.0.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-17T08:50:16.062Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="9afpC9pWRx02M6yRN5G6" version="21.0.2" type="github">
   <diagram name="第 1 页" id="ZdYJFvP875uwJYrcXZKz">
     <mxGraphModel dx="1674" dy="4008" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
       <root>
@@ -13,9 +13,9 @@
         <mxCell id="8QBZkefJyZ8zBn_YgFsc-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8QBZkefJyZ8zBn_YgFsc-2" target="8QBZkefJyZ8zBn_YgFsc-19">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="8QBZkefJyZ8zBn_YgFsc-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8QBZkefJyZ8zBn_YgFsc-2">
+        <mxCell id="8QBZkefJyZ8zBn_YgFsc-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="8QBZkefJyZ8zBn_YgFsc-2" target="8QBZkefJyZ8zBn_YgFsc-31">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="610" y="40" as="targetPoint" />
+            <mxPoint x="1130" y="40" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="8QBZkefJyZ8zBn_YgFsc-2" value="接受消息推送" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -85,7 +85,7 @@
           <mxGeometry x="280" y="10" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="8QBZkefJyZ8zBn_YgFsc-31" value="一次性商品延迟支付" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="610" y="10" width="120" height="60" as="geometry" />
+          <mxGeometry x="1320" y="10" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="8QBZkefJyZ8zBn_YgFsc-34" value="&lt;br&gt;操作表：iap-order表&lt;br&gt;通过凭证把最近一笔&lt;br&gt;订单状态修改为退款&lt;br&gt;记录退款时间、地区、" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="300" y="530" width="160" height="80" as="geometry" />
@@ -134,6 +134,9 @@
         <mxCell id="8QBZkefJyZ8zBn_YgFsc-53" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8QBZkefJyZ8zBn_YgFsc-51" target="8QBZkefJyZ8zBn_YgFsc-52">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="8QBZkefJyZ8zBn_YgFsc-58" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8QBZkefJyZ8zBn_YgFsc-51" target="8QBZkefJyZ8zBn_YgFsc-57">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="8QBZkefJyZ8zBn_YgFsc-51" value="是否还未过期" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="928" y="450" width="80" height="80" as="geometry" />
         </mxCell>
@@ -142,6 +145,12 @@
         </mxCell>
         <mxCell id="8QBZkefJyZ8zBn_YgFsc-54" value="Y" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="908" y="545" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8QBZkefJyZ8zBn_YgFsc-57" value="移动端gp未能支付成功，覆盖不到该场景" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1068" y="460" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8QBZkefJyZ8zBn_YgFsc-59" value="Y" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="460" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
